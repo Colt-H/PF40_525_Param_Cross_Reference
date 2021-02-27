@@ -1,0 +1,151 @@
+PF40_Param,Description
+d001,Output Freq 
+d002,Commanded Freq 
+d003,Output Current 
+d004,Output Voltage 
+d005,DC Bus Voltage 
+d006,Drive Status 
+d007,Fault 1 Code 
+d008,Fault 2 Code 
+d009,Fault 3 Code 
+d010,Process Display 
+d012,Control Source 
+d013,Contrl In Status 
+d014,Dig In Status 
+d015,Comm Status 
+d016,Control SW Ver 
+d017,Drive Type 
+d018,Elapsed Run Time 
+d019,Testpoint Data 
+d020,Analog In 0-10V 
+d021,Analog In 4-20mA 
+d022,Output Power 
+d023,Output Power Fctr 
+d024,Drive Temp 
+d025,Counter Status 
+d026,Timer Status 
+d028,Stp Logic Status 
+d029,Torque Current 
+P031,Motor NP Volts 
+P032,Motor NP Hertz 
+P033,Motor OL Current 
+P034,Minimum Freq 
+P035,Maximum Freq 
+P036,Start Source 
+P037,Stop Mode 
+P038,Speed Reference 
+P039,Accel Time 1 
+P040,Decel Time 1 
+P041,Reset To Defalts 
+P042,Voltage Class 
+P043,Motor OL Ret 
+A051,Digital In1 Sel 
+A052,Digital In2 Sel 
+A053,Digital In3 Sel 
+A054,Digital In4 Sel 
+A055,Relay Out Sel 
+A056,Relay Out Level 
+A058,Opto Out1 Sel 
+A059,Opto Out1 Level 
+A061,Opto Out2 Sel 
+A062,Opto Out2 Level 
+A064,Opto Out Logic 
+A065,Analog Out Sel 
+A066,Analog Out High 
+A067,Accel Time 2 
+A068,Decel Time 2 
+A069,Internal Freq 
+A070,Preset Freq 0 
+A071,Preset Freq 1 
+A072,Preset Freq 2 
+A073,Preset Freq 3 
+A074,Preset Freq 4 
+A075,Preset Freq 5 
+A076,Preset Freq 6 
+A077,Preset Freq 7 
+A078,Jog Frequency 
+A079,Jog Accel/Decel 
+A080,DC Brake Time 
+A081,DC Brake Level 
+A082,DB Resistor Sel 
+A083,S Curve % 
+A084,Boost Select 
+A085,Start Boost 
+A086,Break Voltage 
+A087,Break Frequency 
+A088,Maximum Voltage 
+A089,Current Limit 1 
+A090,Motor OL Select 
+A091,PWM Frequency 
+A092,Auto Rstrt Tries 
+A093,Auto Rstrt Delay 
+A094,Start At PowerUp 
+A095,Reverse Disable 
+A096,Flying Start En 
+A097,Compensation 
+A098,SW Current Trip 
+A099,Process Factor 
+A100,Fault Clear 
+A101,Program Lock 
+A102,Testpoint Sel 
+A103,Comm Data Rate 
+A104,Comm Node Addr 
+A105,Comm Loss Action 
+A106,Comm Loss Time 
+A107,Comm Format 
+A108,Language 
+A109,Anlg Out Setpt 
+A110,Anlg In 0-10V Lo 
+A111,Anlg In 0-10V Hi 
+A112,Anlg In4-20mA Lo 
+A113,Anlg In4-20mA Hi 
+A114,Slip Hertz @ FLA 
+A115,Process Time Lo 
+A116,Process Time Hi 
+A117,Bus Reg Mode 
+A118,Current Limit 2 
+A119,Skip Frequency 
+A120,Skip Freq Band 
+A121,Stall Fault Time 
+A122,Analog In Loss 
+A123,10V Bipolar Enbl 
+A124,Var PWM Disable 
+A125,Torque Perf Mode 
+A126,Motor NP FLA 
+A127,Autotune 
+A128,IR Voltage Drop 
+A129,Flux Current Ref 
+A130,PID Trim Hi 
+A131,PID Trim Lo 
+A132,PID Ref Sel 
+A133,PID Feedback Sel 
+A134,PID Prop Gain 
+A135,PID Integ Time 
+A136,PID Diff Rate 
+A137,PID Setpoint 
+A138,PID Deadband 
+A139,PID Preload 
+A140,Stp Logic 0 
+A141,Stp Logic 1 
+A142,Stp Logic 2 
+A143,Stp Logic 3 
+A144,Stp Logic 4 
+A145,Stp Logic 5 
+A146,Stp Logic 6 
+A147,Stp Logic 7 
+A150,Stp Logic Time 0 
+A151,Stp Logic Time 1 
+A152,Stp Logic Time 2 
+A153,Stp Logic Time 3 
+A154,Stp Logic Time 4 
+A155,Stp Logic Time 5 
+A156,Stp Logic Time 6 
+A157,Stp Logic Time 7 
+A160,EM Brk Off Delay 
+A161,EM Brk On Delay 
+A162,MOP Reset Sel 
+A163,DB Threshold 
+A164,Comm Write Mode 
+A165,Anlg Loss Delay 
+A166,Analog In Filter 
+A167,PID Invert Error 

@@ -1,0 +1,502 @@
+PF525_Param,Description
+b001,Output Freq
+b002,Commanded Freq
+b003,Output Current
+b004,Output Voltage
+b005,DC Bus Voltage
+b006,Drive Status
+b007,Fault 1 Code
+b008,Fault 2 Code
+b009,Fault 3 Code
+b010,Process Display
+b011,Process Fract
+b012,Control Source
+b013,Contrl In Status
+b014,Dig In Status
+b015,Output RPM
+b016,Output Speed
+b017,Output Power
+b018,Power Saved
+b019,Elapsed Run Time
+b020,Average Power
+b021,Elapsed kWh
+b022,Elapsed MWh
+b023,Energy Saved
+b024,Accum kWh Sav
+b025,Accum Cost Sav
+b026,Accum CO2 Sav
+b027,Drive Temp
+b028,Control Temp
+b029,Control SW Ver
+P030,Language
+P031,Motor NP Volts
+P032,Motor NP Hertz
+P033,Motor OL Current
+P034,Motor NP FLA
+P035,Motor NP Poles
+P036,Motor NP RPM
+P037,Motor NP Power
+P038,Voltage Class
+P039,Torque Perf Mode
+P040,Autotune
+P041,Accel Time 1
+P042,Decel Time 1
+P043,Minimum Freq
+P044,Maximum Freq
+P045,Stop Mode
+P046,Start Source 1
+P047,Speed Reference1
+P048,Start Source 2
+P049,Speed Reference2
+P050,Start Source 3
+P051,Speed Reference3
+P052,Average kWh Cost
+P053,Reset To Defalts
+t062,DigIn TermBlk 02
+t063,DigIn TermBlk 03
+t064,2-Wire Mode
+t065,DigIn TermBlk 05
+t066,DigIn TermBlk 06
+t067,DigIn TermBlk 07
+t068,DigIn TermBlk 08
+t069,Opto Out1 Sel
+t070,Opto Out1 Level
+t071,Opto Out1 LevelF
+t072,Opto Out2 Sel
+t073,Opto Out2 Level
+t074,Opto Out2 LevelF
+t075,Opto Out Logic
+t076,Relay Out1 Sel
+t077,Relay Out1 Level
+t078,Relay Out1 LevelF
+t079,Relay 1 On Time
+t080,Relay 1 Off Time
+t081,Relay Out2 Sel
+t082,Relay Out2 Level
+t083,Relay Out2 LevelF
+t084,Relay 2 On Time
+t085,Relay 2 Off Time
+t086,EM Brk Off Delay
+t087,EM Brk On Delay
+t088,Analog Out Sel
+t089,Analog Out High
+t090,Anlg Out Setpt
+t091,Anlg In 0-10V Lo
+t092,Anlg In 0-10V Hi
+t093,10V Bipolar Enbl
+t094,Anlg In V Loss
+t095,Anlg In4-20mA Lo
+t096,Anlg In4-20mA Hi
+t097,Anlg In mA Loss
+t098,Anlg Loss Delay
+t099,Analog In Filter
+t100,Sleep-Wake Sel
+t101,Sleep Level
+t102,Sleep Time
+t103,Wake Level
+t104,Wake Time
+t105,Safety Open En
+t106,SafetyFlt RstCfg(1)
+C121,Comm Write Mode
+C122,Cmd Stat Select
+C123,RS485 Data Rate
+C124,RS485 Node Addr
+C125,Comm Loss Action
+C126,Comm Loss Time
+C127,RS485 Format
+C128,EN Addr Sel
+C129,EN IP Addr Cfg 1
+C130,EN IP Addr Cfg 2
+C131,EN IP Addr Cfg 3
+C132,EN IP Addr Cfg 4
+C133,EN Subnet Cfg 1
+C134,EN Subnet Cfg 2
+C135,EN Subnet Cfg 3
+C136,EN Subnet Cfg 4
+C137,EN Gateway Cfg 1
+C138,EN Gateway Cfg 2
+C139,EN Gateway Cfg 3
+C140,EN Gateway Cfg 4
+C141,EN Rate Cfg
+C143,EN Comm Flt Actn
+C144,EN Idle Flt Actn
+C145,EN Flt Cfg Logic
+C146,EN Flt Cfg Ref
+C147,EN Flt Cfg DL 1
+C148,EN Flt Cfg DL 2
+C149,EN Flt Cfg DL 3
+C150,EN Flt Cfg DL 4
+C153,EN Data In 1
+C154,EN Data In 2
+C155,EN Data In 3
+C156,EN Data In 4
+C157,EN Data Out 1
+C158,EN Data Out 2
+C159,EN Data Out 3
+C160,EN Data Out 4
+C161,Opt Data In 1
+C162,Opt Data In 2
+C163,Opt Data In 3
+C164,Opt Data In 4
+C165,Opt Data Out 1
+C166,Opt Data Out 2
+C167,Opt Data Out 3
+C168,Opt Data Out 4
+C169,MultiDrv Sel
+C171,Drv 1 Addr
+C172,Drv 2 Addr
+C173,Drv 3 Addr
+C174,Drv 4 Addr
+C175,DSI I/O Cfg
+L180,Stp Logic 0
+L181,Stp Logic 1
+L182,Stp Logic 2
+L183,Stp Logic 3
+L184,Stp Logic 4
+L185,Stp Logic 5
+L186,Stp Logic 6
+L187,Stp Logic 7
+L190,Stp Logic Time 0
+L191,Stp Logic Time 1
+L192,Stp Logic Time 2
+L193,Stp Logic Time 3
+L194,Stp Logic Time 4
+L195,Stp Logic Time 5
+L196,Stp Logic Time 6
+L197,Stp Logic Time 7
+L200,Step Units 0
+L201,Step Units F 0
+L202,Step Units 1
+L203,Step Units F 1
+L204,Step Units 2
+L205,Step Units F 2
+L206,Step Units 3
+L207,Step Units F 3
+L208,Step Units 4
+L209,Step Units F 4
+L210,Step Units 5
+L211,Step Units F 5
+L212,Step Units 6
+L213,Step Units F 6
+L214,Step Units 7
+L215,Step Units F 7
+d360,Analog In 0-10V
+d361,Analog In 4-20mA
+d362,Elapsed Time-hr
+d363,Elapsed Time-min
+d364,Counter Status
+d365,Timer Status
+d366,Timer StatusF
+d367,Drive Type
+d368,Testpoint Data
+d369,Motor OL Level
+d375,Slip Hz Meter
+d376,Speed Feedback
+d377,Speed Feedback F
+d378,Encoder Speed
+d379,Encoder Speed F
+d380,DC Bus Ripple
+d381,Output Powr Fctr
+d382,Torque Current
+d383,PID1 Fdbk Displ
+d384,PID1 Setpnt Disp
+d385,PID2 Fdbk Displ
+d386,PID2 Setpnt Disp
+d387,Position Status
+d388,Units Traveled H
+d389,Units Traveled L
+d390,Fiber Status
+d391,Stp Logic Status
+d392,RdyBit Mode Act
+d393,Drive Status 2(1)
+d394,Dig Out Status(1)
+A410,Preset Freq 0
+A411,Preset Freq 1
+A412,Preset Freq 2
+A413,Preset Freq 3
+A414,Preset Freq 4
+A415,Preset Freq 5
+A416,Preset Freq 6
+A417,Preset Freq 7
+A418,Preset Freq 8
+A419,Preset Freq 9
+A420,Preset Freq 10
+A421,Preset Freq 11
+A422,Preset Freq 12
+A423,Preset Freq 13
+A424,Preset Freq 14
+A425,Preset Freq 15
+A426,Keypad Freq
+A427,MOP Freq
+A428,MOP Reset Sel
+A429,MOP Preload
+A430,MOP Time
+A431,Jog Frequency
+A432,Jog Accel/Decel
+A433,Purge Frequency
+A434,DC Brake Time
+A435,DC Brake Level
+A436,DC Brk Time@Strt
+A437,DB Resistor Sel
+A438,DB Threshold
+A439,S Curve %
+A440,PWM Frequency
+A441,Droop Hertz@ FLA
+A442,Accel Time 2
+A443,Decel Time 2
+A444,Accel Time 3
+A445,Decel Time 3
+A446,Accel Time 4
+A447,Decel Time 4
+A448,Skip Frequency 1
+A449,Skip Freq Band 1
+A450,Skip Frequency 2
+A451,Skip Freq Band 2
+A452,Skip Frequency 3
+A453,Skip Freq Band 3
+A454,Skip Frequency 4
+A455,Skip Freq Band 4
+A456,PID 1 Trim Hi
+A457,PID 1 Trim Lo
+A458,PID 1 Trim Sel
+A459,PID 1 Ref Sel
+A460,PID 1 Fdback Sel
+A461,PID 1 Prop Gain
+A462,PID 1 Integ Time
+A463,PID 1 Diff Rate
+A464,PID 1 Setpoint
+A465,PID 1 Deadband
+A466,PID 1 Preload
+A467,PID 1 Invert Err
+A468,PID 2 Trim Hi
+A469,PID 2 Trim Lo
+A470,PID 2 Trim Sel
+A471,PID 2 Ref Sel
+A472,PID 2 Fdback Sel
+A473,PID 2 Prop Gain
+A474,PID 2 Integ Time
+A475,PID 2 Diff Rate
+A476,PID 2 Setpoint
+A477,PID 2 Deadband
+A478,PID 2 Preload
+A479,PID 2 Invert Err
+A481,Process Disp Lo
+A482,Process Disp Hi
+A483,Testpoint Sel
+A484,Current Limit 1
+A485,Current Limit 2
+A486,Shear Pin1 Level
+A487,Shear Pin 1 Time
+A488,Shear Pin2 Level
+A489,Shear Pin 2 Time
+A490,Load Loss Level
+A491,Load Loss Time
+A492,Stall Fault Time
+A493,Motor OL Select
+A494,Motor OL Ret
+A495,Drive OL Mode
+A496,IR Voltage Drop
+A497,Flux Current Ref
+A498,Motor Rr
+A499,Motor Lm
+A500,Motor Lx
+A501,PM IR Voltage(1)
+A502,PM IXd Voltage(1)
+A503,PM IXq Voltage(1)
+A504,PM BEMF Voltage(1)
+A509,Speed Reg Sel
+A510,Freq 1
+A511,Freq 1 BW
+A512,Freq 2
+A513,Freq 2 BW
+A514,Freq 3
+A515,Freq 3 BW
+A516,PM Initial Sel(1)
+A517,PM DC Inject Cur(1)
+A518,PM Align Time(1)
+A519,PM HIFI NS Cur(1)
+A520,PM Bus Reg Kd(1)
+A521,Freq 1 Kp
+A522,Freq 1 Ki
+A523,Freq 2 Kp
+A524,Freq 2 Ki
+A525,Freq 3 Kp
+A526,Freq 3 Ki
+A527,PM FWKn 1 Kp(1)
+A528,PM FWKn 2 Kp(1)
+A529,PM Control Cfg(1)
+A530,Boost Select
+A531,Start Boost
+A532,Break Voltage
+A533,Break Frequency
+A534,Maximum Voltage
+A535,Motor Fdbk Type
+A536,Encoder PPR
+A537,Pulse In Scale
+A538,Ki Speed Loop
+A539,Kp Speed Loop
+A540,Var PWM Disable
+A541,Auto Rstrt Tries
+A542,Auto Rstrt Delay
+A543,Start At PowerUp
+A544,Reverse Disable
+A545,Flying Start En
+A546,FlyStrt CurLimit
+A547,Compensation
+A548,Power Loss Mode
+A549,Half Bus Enable
+A550,Bus Reg Enable
+A551,Fault Clear
+A552,Program Lock
+A553,Program Lock Mod
+A554,Drv Ambient Sel
+A555,Reset Meters
+A556,Text Scroll
+A557,Out Phas Loss En
+A558,Positioning Mode
+A559,Counts Per Unit
+A560,Enh Control Word
+A561,Home Save
+A562,Find Home Freq
+A563,Find Home Dir
+A564,Encoder Pos Tol
+A565,Pos Reg Filter
+A566,Pos Reg Gain
+A567,Max Traverse
+A568,Traverse Inc
+A569,Traverse Dec
+A570,P Jump
+A571,Sync Time
+A572,Speed Ratio
+A573,Mtr Options Cfg
+A574,RdyBit Mode Cfg
+A575,Flux Braking En(1)
+A576,Phase Loss Level(1)
+A580,Current Loop BW(1)
+A581,PM Stable 1 Freq(1)
+A582,PM Stable 2 Freq(1)
+A583,PM Stable 1 Kp(1)
+A584,PM Stable 2 Kp(1)
+A585,PM Stable Brk Pt(1)
+A586,PM Stepload Kp(1)
+A587,PM 1 Efficiency(1)
+A588,PM 2 Efficiency(1)
+A589,PM Algor Sel(1)
+F604,Fault 4 Code
+F605,Fault 5 Code
+F606,Fault 6 Code
+F607,Fault 7 Code
+F608,Fault 8 Code
+F609,Fault 9 Code
+F610,Fault10 Code
+F611,Fault 1 Time-hr
+F612,Fault 2 Time-hr
+F613,Fault 3 Time-hr
+F614,Fault 4 Time-hr
+F615,Fault 5 Time-hr
+F616,Fault 6 Time-hr
+F617,Fault 7 Time-hr
+F618,Fault 8 Time-hr
+F619,Fault 9 Time-hr
+F620,Fault10 Time-hr
+F621,Fault 1 Time-min
+F622,Fault 2 Time-min
+F623,Fault 3 Time-min
+F624,Fault 4 Time-min
+F625,Fault 5 Time-min
+F626,Fault 6 Time-min
+F627,Fault 7 Time-min
+F628,Fault 8 Time-min
+F629,Fault 9 Time-min
+F630,Fault10 Time-min
+F631,Fault 1 Freq
+F632,Fault 2 Freq
+F633,Fault 3 Freq
+F634,Fault 4 Freq
+F635,Fault 5 Freq
+F636,Fault 6 Freq
+F637,Fault 7 Freq
+F638,Fault 8 Freq
+F639,Fault 9 Freq
+F640,Fault10 Freq
+F641,Fault 1 Current
+F642,Fault 2 Current
+F643,Fault 3 Current
+F644,Fault 4 Current
+F645,Fault 5 Current
+F646,Fault 6 Current
+F647,Fault 7 Current
+F648,Fault 8 Current
+F649,Fault 9 Current
+F650,Fault10 Current
+F651,Fault 1 BusVolts
+F652,Fault 2 BusVolts
+F653,Fault 3 BusVolts
+F654,Fault 4 BusVolts
+F655,Fault 5 BusVolts
+F656,Fault 6 BusVolts
+F657,Fault 7 BusVolts
+F658,Fault 8 BusVolts
+F659,Fault 9 BusVolts
+F660,Fault10 BusVolts
+F661,Status @ Fault 1
+F662,Status @ Fault 2
+F663,Status @ Fault 3
+F664,Status @ Fault 4
+F665,Status @ Fault 5
+F666,Status @ Fault 6
+F667,Status @ Fault 7
+F668,Status @ Fault 8
+F669,Status @ Fault 9
+F670,Status @ Fault10
+F681,Comm Sts - DSI
+F682,Comm Sts - Opt
+F683,Com Sts-Emb Enet
+F684,EN Addr Src
+F685,EN Rate Act
+F686,DSI I/O Act
+F687,HW Addr 1
+F688,HW Addr 2
+F689,HW Addr 3
+F690,HW Addr 4
+F691,HW Addr 5
+F692,HW Addr 6
+F693,EN IP Addr Act 1
+F694,EN IP Addr Act 2
+F695,EN IP Addr Act 3
+F696,EN IP Addr Act 4
+F697,EN Subnet Act 1
+F698,EN Subnet Act 2
+F699,EN Subnet Act 3
+F700,EN Subnet Act 4
+F701,EN Gateway Act 1
+F702,EN Gateway Act 2
+F703,EN Gateway Act 3
+F704,EN Gateway Act 4
+F705,Drv 0 Logic Cmd
+F706,Drv 0 Reference
+F707,Drv 0 Logic Sts
+F708,Drv 0 Feedback
+F709,Drv 1 Logic Cmd
+F710,Drv 1 Reference
+F711,Drv 1 Logic Sts
+F712,Drv 1 Feedback
+F713,Drv 2 Logic Cmd
+F714,Drv 2 Reference
+F715,Drv 2 Logic Sts
+F716,Drv 2 Feedback
+F717,Drv 3 Logic Cmd
+F718,Drv 3 Reference
+F719,Drv 3 Logic Sts
+F720,Drv 3 Feedback
+F721,Drv 4 Logic Cmd
+F722,Drv 4 Reference
+F723,Drv 4 Logic Sts
+F724,Drv 4 Feedback
+F725,EN Rx Overruns
+F726,EN Rx Packets
+F727,EN Rx Errors
+F728,EN Tx Packets
+F729,EN Tx Errors
+F730,EN Missed IO Pkt
+F731,DSI Errors
